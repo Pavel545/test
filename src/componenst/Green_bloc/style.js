@@ -3,11 +3,20 @@ export const Box = styled.div`
   display: flex;
   gap: 10px;
   justify-content: center;
+  @media (max-width: 480px) {
+    flex-direction: column;
+
+  }
 `;
 export const BigGray = styled.div`
   background: #e3ebd3;
   width: 492px;
   height: 492px;
+  @media (max-width: 480px) {
+    width: 320px;
+    height: 320px;
+    overflow: scroll;
+  }
 `;
 export const BigGreen_text = styled.div`
   font-family: "Noto Sans";
@@ -30,6 +39,10 @@ export const MiniGray = styled.div`
   height: 241px;
   display: flex;
   align-items: flex-end;
+  @media (max-width: 480px) {
+    width: 155px;
+    height: 155px;
+  }
   :hover {
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
@@ -95,6 +108,10 @@ export const MiniGreen = styled.div`
   height: 241px;
   display: flex;
   align-items: flex-end;
+  @media (max-width: 480px) {
+    width: 155px;
+    height: 155px;
+  }
 `;
 export const MiniGreen_text = styled.div`
   height: 125px;
@@ -108,11 +125,16 @@ export const MiniGreen_text = styled.div`
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+
+  
 `;
 export const Mini_box = styled.div`
   display: flex;
   gap: 10px;
   flex-direction: column;
+  @media (max-width: 480px) {
+    flex-direction: row;
+  }
 `;
 export const text__ = styled.div`
   &:first-of-type {

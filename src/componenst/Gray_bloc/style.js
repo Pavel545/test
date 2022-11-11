@@ -1,13 +1,18 @@
 import styled from "styled-components";
 export const Box = styled.div`
-display: flex;
-gap:10px;
-justify-content: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 `;
 export const BigGray = styled.div`
   background: #a2a9b7;
   width: 492px;
   height: 492px;
+  @media (max-width: 480px) {
+    width: 210px;
+    height: 210px;
+    overflow: scroll;
+  }
 `;
 export const BigGray_text = styled.div`
   font-family: "Roboto";
@@ -26,9 +31,13 @@ export const BigGray_text = styled.div`
 export const MiniGray = styled.div`
   background: #a2a9b7;
   width: 241px;
-    height: 241px;
-    display: flex;
+  height: 241px;
+  display: flex;
   align-items: flex-end;
+  @media (max-width: 480px) {
+    width: 102px;
+    height: 102px;
+  }
 `;
 export const MiniGray_text = styled.div`
   height: 125px;
@@ -42,11 +51,11 @@ export const MiniGray_text = styled.div`
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  
+
   color: #ffffff;
 `;
 export const Mini_box = styled.div`
-display: flex;
-gap:10px;
-flex-direction: column;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
 `;

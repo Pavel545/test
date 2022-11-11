@@ -10,4 +10,7 @@ export const Mini_box = styled.div`
   gap: 10px;
 
   flex-direction: column;
+  @media (max-width: 480px) {
+    flex-direction: row;
+  }
 `;

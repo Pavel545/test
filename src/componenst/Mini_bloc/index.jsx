@@ -22,6 +22,10 @@ export function Mini_box(props) {
     height: 155px;
     display: flex;
     align-items: flex-end;
+    @media (max-width: 480px) {
+      width: 155px;
+      height: 155px;
+    }
   `;
   return (
     <Mini>

@@ -17,6 +17,9 @@ export function Footer() {
     align-items: center;
     align-content: center;
     justify-content: center;
+    @media (max-width: 480px) {
+      width: 320px;
+    }
   `;
   return <Footers>Footer</Footers>;
 }

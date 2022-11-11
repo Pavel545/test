@@ -11,13 +11,15 @@ export function Main() {
   return (
     <S.Main>
       <Header />
-      <Grey_bloc />
-      <S.Middle>
-        <White_bloc />
-        <BY_bloc />
-      </S.Middle>
-      <Green_bloc/>
-      <Read_bloc/>
+      <S.Half>
+        <Grey_bloc />
+        <S.Middle>
+          <White_bloc />
+          <BY_bloc />
+        </S.Middle>
+      </S.Half>
+      <Green_bloc />
+      <Read_bloc />
       <Footer />
     </S.Main>
   );
