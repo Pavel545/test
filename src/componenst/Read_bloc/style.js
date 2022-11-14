@@ -10,7 +10,7 @@ export const Box = styled.div`
 `;
 
 export const MiniRead = styled.div`
-  background: #e8ebed;
+  background: #FFAA87;
   width: 100%;
   height: 155px;
   display: flex;

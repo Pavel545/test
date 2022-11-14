@@ -5,6 +5,7 @@ export const Box = styled.div`
   justify-content: center;
   @media (max-width: 480px) {
     flex-direction: column;
+    display:none; 
 
   }
 `;
